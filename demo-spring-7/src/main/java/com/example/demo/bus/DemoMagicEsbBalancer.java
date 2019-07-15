@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class DemoMagicEsbBalancer implements MagicEsbBalancer {
 
-    private static final String topicExchangeName = "spring-boot-exchange-demo-6";
+    private static final String topicExchangeName = "spring-boot-exchange-demo-7";
 
     private final RabbitTemplate rabbitTemplate;
 
